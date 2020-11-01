@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CDWpfTestApp.exe" version="1.0.0.0" publicKeyToken="b300e198878b28a4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CDWpfTestApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CDWpfTestApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CDWpfTestApp.exe" size="12720">
+      <assemblyIdentity name="CDWpfTestApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JyRS9OTunLfeq0UE0e8g9QWVpKezHRfdTZdR0I4DzBE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CDWpfTestApp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JDNET\pgtta39" issuerKeyHash="1ce07fcced78ded653a50e70bb7dad7716b0241d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fu5BdvVMs1EzpcnU58J3yfLixPTqgvhZP+a+P1q57zA=</DigestValue></Reference></SignedInfo><SignatureValue>Ab/+dPtydTV7UmWJjEMAMjO9FXky+dlIRCQcGkKLxhoKnVHEqlmOAUWB4epYGWIzZ+Mqj0yZ7StD546JDu5lhrHw/CcrwoOExDGQxtq0hhj9ut88wlJHQGiM9AZ7j+wWO8XCFGAV1kf9h77/79E7wlmyBWpDEg1tCpD1rp/xRbM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>npoXgQjI2kGApF/TPTXMKRw0iGKBXGgohWP1lwwNXO+YbL9jnop/FAGZpIJ7SpLmxHZ942d02YX9af5XgYxMVvLijB78CppMHdN5IVDo7Jfox2qgqzlFES9Bw8XQdcRpSMb/NbbRBhb5CHSJkuttudbPkqLRVQSDna7QJLBLRIE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="30efb95a3fbee63f59f882eaf4c4e2f2c977c2e7d4c9a53351b34cf57641ee7e" Description="" Url=""><as:assemblyIdentity name="CDWpfTestApp.exe" version="1.0.0.0" publicKeyToken="b300e198878b28a4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JDNET\pgtta39</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mtaHsXAXBhvkoT+7mM39RV14dfTShxwxdiLa+8nSWmI=</DigestValue></Reference></SignedInfo><SignatureValue>iiMLESHjFiZQ7LFWtDhAyrzh3GTjRFH1l+T6FKAbSyBtUxpyUKDF14x/gALa7wag0TawIQtvi4pjK5KqKgRGYHys17Q4vlJU+c7X65nM58o4Lc4uomzj0lcQG+8KA4/QrIf63FUjbZKDQWDmSwX7ZVIwyz0RJsM3NBd6hYIEB/w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>npoXgQjI2kGApF/TPTXMKRw0iGKBXGgohWP1lwwNXO+YbL9jnop/FAGZpIJ7SpLmxHZ942d02YX9af5XgYxMVvLijB78CppMHdN5IVDo7Jfox2qgqzlFES9Bw8XQdcRpSMb/NbbRBhb5CHSJkuttudbPkqLRVQSDna7QJLBLRIE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQOGfBjYtC3rtIK/Ah1vgXfDANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoASgBEAE4ARQBUAFwAcABnAHQAdABhADMAOTAeFw0yMDEwMjkxNzA5MDFaFw0yMTEwMjkyMzA5MDFaMCUxIzAhBgNVBAMeGgBKAEQATgBFAFQAXABwAGcAdAB0AGEAMwA5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCemheBCMjaQYCkX9M9NcwpHDSIYoFcaCiFY/WXDA1c75hsv2Oein8UAZmkgntKkubEdn3jZ3TZhf1p/leBjExW8uKMHvwKmkwd03khUOjsl+jHaqCrOUURL0HDxdB1xGlIxv81ttEGFvkIdImS62251s+SotFVBIOdrtAksEtEgQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABQcFfexhuWwRmZBgBhFeVfM8Apt5EVIv47lE2HouxawEPzU5y6oZ17pgBbJKg7ZgPHv4QKG9fudb5YWryny923xPfQdzBbYRW8zq6uw4HKXVMB1aByTSdA9ydjhqUwXM9LWbL2I2HwWeV23/n9seP4T7TxWHmiwfEAt3/OxqRXj</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
